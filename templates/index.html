@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cajas de Colores</title>
+    <style>
+        .color-box {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+
+    {% for _ in range(x) %}
+        <div class="color-box" style="background-color: [ blue ];"></div>
+    {% endfor %}
+
+</body>
+</html>
